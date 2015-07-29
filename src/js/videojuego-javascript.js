@@ -29,7 +29,7 @@ var game = (function () {
         bgBoss,
         evilSpeed = 1,
         totalEvils = 7,
-        playerLife = 3,
+        playerLife = 5,
         shotSpeed = 5,
         playerSpeed = 5,
         evilCounter = 0,
@@ -411,14 +411,14 @@ var game = (function () {
 
     function showGameOver() {
         bufferctx.fillStyle="rgb(255,0,0)";
-        bufferctx.font="bold 35px Arial";
-        bufferctx.fillText("GAME OVER", canvas.width / 2 - 100, canvas.height / 2);
+        bufferctx.font="bold 25px Arial";
+        bufferctx.fillText("ESTAS MUERTO!!!", canvas.width / 2 - 100, canvas.height / 2);
     }
 
     function showCongratulations () {
         bufferctx.fillStyle="rgb(204,50,153)";
         bufferctx.font="bold 22px Arial";
-        bufferctx.fillText("Enhorabuena, te has pasado el juego!", canvas.width / 2 - 200, canvas.height / 2 - 30);
+        bufferctx.fillText("Enhorabuena, has ganado el juego!", canvas.width / 2 - 200, canvas.height / 2 - 30);
         bufferctx.fillText("PUNTOS: " + player.score, canvas.width / 2 - 200, canvas.height / 2);
         bufferctx.fillText("VIDAS: " + player.life + " x 5", canvas.width / 2 - 200, canvas.height / 2 + 30);
         bufferctx.fillText("PUNTUACION TOTAL: " + getTotalScore(), canvas.width / 2 - 200, canvas.height / 2 + 60);
