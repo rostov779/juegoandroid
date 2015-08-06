@@ -616,7 +616,7 @@ var game = (function () {
             localStorage.removeItem(scoreToRemoveKey);
         }
     }
-    /******************************* FIN MEJORES PUNTUACIONES *******************************/
+    /*************************** FIN MEJORES PUNTUACIONES ******************************/
 
     return {
         init: init
