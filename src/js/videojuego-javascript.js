@@ -170,6 +170,7 @@ var game = (function () {
             if (keyPressed.fire)
                 shoot();
         };
+		
 
         player.killPlayer = function() {
             if (this.life > 0) {
@@ -199,7 +200,7 @@ var game = (function () {
         this.speed = shotSpeed;
         this.identifier = 0;
         this.add = function () {
-            array.push(this);
+            array.push(this);/ no se
         };
         this.deleteShot = function (idendificador) {
             arrayRemove(array, idendificador);
