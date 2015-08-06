@@ -419,7 +419,7 @@ var game = (function () {
     function showCongratulations () {
         bufferctx.fillStyle="rgb(204,50,153)";
         bufferctx.font="bold 22px Arial";
-        bufferctx.fillText("Enhorabuena, has ganado el juego!", canvas.width / 2 - 200, canvas.height / 2 - 30);
+        bufferctx.fillText("buena, has ganado el juego!", canvas.width / 2 - 200, canvas.height / 2 - 30);
         bufferctx.fillText("PUNTOS: " + player.score, canvas.width / 2 - 200, canvas.height / 2);
         bufferctx.fillText("VIDAS: " + player.life + " x 5", canvas.width / 2 - 200, canvas.height / 2 + 30);
         bufferctx.fillText("PUNTUACION TOTAL: " + getTotalScore(), canvas.width / 2 - 200, canvas.height / 2 + 60);
