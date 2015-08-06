@@ -228,7 +228,7 @@ var game = (function () {
 
     EvilShot.prototype = Object.create(Shot.prototype);
     EvilShot.prototype.constructor = EvilShot;
-    /******************************* FIN DISPAROS ********************************/
+    /******************************* FIN DISPAROS **************************/
 
 
     /******************************* ENEMIGOS *******************************/
