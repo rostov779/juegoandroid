@@ -17,7 +17,7 @@ arrayRemove = function (array, from) {
 
 var game = (function () {
 
-    // Variables globales a la aplicacion
+    // Variables globales a la aplicacion.
     var canvas,
         ctx,
         buffer,
@@ -59,7 +59,7 @@ var game = (function () {
         keyMap = {
             left: 37,
             right: 39,
-            fire: 32     // tecla espacio
+            fire: 32     // tecla espacio para poder disparar
         },
         nextPlayerShot = 0,
         playerShotDelay = 250,
